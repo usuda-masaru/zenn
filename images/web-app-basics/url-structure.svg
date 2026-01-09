@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280">
+  <!-- Background -->
+  <rect width="800" height="280" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="18" fill="#333" text-anchor="middle">URLの構造</text>
+  
+  <!-- URL Bar -->
+  <g transform="translate(100, 60)">
+    <rect x="0" y="0" width="600" height="45" rx="6" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <circle cx="25" cy="22" r="6" fill="#4CAF50"/>
+    <text x="50" y="28" font-family="monospace" font-size="16" fill="#333">https://cafe-example.com/menu</text>
+  </g>
+  
+  <!-- Breakdown lines and labels -->
+  
+  <!-- Protocol -->
+  <g transform="translate(170, 120)">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#666" stroke-width="1"/>
+    <line x1="-30" y1="30" x2="30" y2="30" stroke="#666" stroke-width="1"/>
+    <rect x="-50" y="40" width="100" height="55" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+    <text x="0" y="60" font-family="monospace" font-size="12" fill="#333" text-anchor="middle">https://</text>
+    <text x="0" y="78" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="10" fill="#666" text-anchor="middle">プロトコル</text>
+    <text x="0" y="90" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="9" fill="#888" text-anchor="middle">（鍵付きのドア）</text>
+  </g>
+  
+  <!-- Domain -->
+  <g transform="translate(355, 120)">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#666" stroke-width="1"/>
+    <line x1="-70" y1="30" x2="70" y2="30" stroke="#666" stroke-width="1"/>
+    <rect x="-85" y="40" width="170" height="55" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+    <text x="0" y="60" font-family="monospace" font-size="12" fill="#333" text-anchor="middle">cafe-example.com</text>
+    <text x="0" y="78" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="10" fill="#666" text-anchor="middle">ドメイン</text>
+    <text x="0" y="90" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="9" fill="#888" text-anchor="middle">（お店の住所と名前）</text>
+  </g>
+  
+  <!-- Path -->
+  <g transform="translate(540, 120)">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#666" stroke-width="1"/>
+    <line x1="-30" y1="30" x2="30" y2="30" stroke="#666" stroke-width="1"/>
+    <rect x="-55" y="40" width="110" height="55" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+    <text x="0" y="60" font-family="monospace" font-size="12" fill="#333" text-anchor="middle">/menu</text>
+    <text x="0" y="78" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="10" fill="#666" text-anchor="middle">パス</text>
+    <text x="0" y="90" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="9" fill="#888" text-anchor="middle">（メニューを見せて）</text>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(100, 230)">
+    <rect x="0" y="0" width="600" height="35" rx="4" fill="none" stroke="#ddd" stroke-width="1" stroke-dasharray="5,3"/>
+    <text x="20" y="22" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="11" fill="#888">他の例：</text>
+    <text x="100" y="22" font-family="monospace" font-size="11" fill="#666">/order</text>
+    <text x="170" y="22" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="10" fill="#888">→ 注文したい</text>
+    <text x="300" y="22" font-family="monospace" font-size="11" fill="#666">/history</text>
+    <text x="380" y="22" font-family="'Hiragino Kaku Gothic Pro', sans-serif" font-size="10" fill="#888">→ 注文履歴を見せて</text>
+  </g>
+</svg>
