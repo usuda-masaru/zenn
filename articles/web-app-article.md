@@ -22,7 +22,7 @@ published: false
 
 まず、Webアプリを動かすために必要な「登場人物」を紹介します。
 
-![Webアプリの登場人物](/images/web-app-basics/characters.png)
+![Webアプリの登場人物](/images/web-app-basics/characters.svg)
 
 | Webの世界 | カフェで例えると |
 |:--|:--|
@@ -42,7 +42,7 @@ published: false
 あなたがカフェに入って、コーヒーを注文して、受け取るまで。
 この流れが、そのままWebアプリの仕組みです。
 
-![リクエストとレスポンスの流れ](/images/web-app-basics/request-response.png)
+![リクエストとレスポンスの流れ](/images/web-app-basics/request-response.svg)
 
 ### ステップ1：リクエスト（注文する）
 
@@ -75,7 +75,7 @@ Webの世界では、これを**レスポンス**と呼びます。
 Webアプリは大きく2つの部分に分かれています。
 カフェで言えば「客席エリア」と「厨房エリア」です。
 
-![フロントエンドとバックエンド](/images/web-app-basics/frontend-backend.png)
+![フロントエンドとバックエンド](/images/web-app-basics/frontend-backend.svg)
 
 ## フロントエンド（客席エリア）
 
@@ -149,7 +149,7 @@ sequenceDiagram
 ブラウザの上に表示されている `https://cafe-example.com/menu` みたいなやつ。
 これは「お店の住所と、何を注文するか」を表しています。
 
-![URLの構造](/images/web-app-basics/url-structure.png)
+![URLの構造](/images/web-app-basics/url-structure.svg)
 
 | URLの部分 | カフェで例えると |
 |:--|:--|
@@ -166,7 +166,7 @@ sequenceDiagram
 カフェでも、店員さんへのお願いにはいろいろな種類がありますよね。
 Webの世界でも同じで、これを**HTTPメソッド**と呼びます。
 
-![HTTPメソッド](/images/web-app-basics/http-methods.png)
+![HTTPメソッド](/images/web-app-basics/http-methods.svg)
 
 | メソッド | カフェでの例 |
 |:--|:--|
@@ -230,7 +230,7 @@ DELETE /order/123 → 注文番号123がキャンセルされる
 
 最後に、Webアプリの全体像をまとめます。
 
-![Webアプリの全体像](/images/web-app-basics/overview.png)
+![Webアプリの全体像](/images/web-app-basics/overview.svg)
 
 カフェの例で考えると、こうなります。
 
